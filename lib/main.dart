@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:device_preview/device_preview.dart';
+import 'package:properties_app/booking_page.dart';
 import 'package:properties_app/language.dart';
+import 'package:properties_app/page1.dart';
+
+import 'homepage.dart';
+// import 'package:properties_app/language.dart';
+// import 'package:properties_app/page2.dart';
 // import 'package:properties_app/homepage.dart';
 // import 'package:properties_app/page1.dart';
 
@@ -43,7 +49,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Language(),
+      home: Page1(),
     );
   }
 }

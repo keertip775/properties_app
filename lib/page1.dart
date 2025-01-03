@@ -40,7 +40,7 @@ class Page1 extends StatelessWidget {
                     "Back to Home",
                     style: TextStyle(
                       color: AppColors.primarycolor,
-                      fontSize: 20,
+                      fontSize: 23,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
